@@ -1,0 +1,4 @@
+do infinite begin		
+	after rn stream_DiffR1_8 20.00 hours	take resource down
+	after rn stream_DiffR1_9 10.00 hours	bring resource up
+end		

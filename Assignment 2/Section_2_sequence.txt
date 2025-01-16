@@ -1,0 +1,116 @@
+begin Conwip_Regulate arriving procedure
+	print this load ,"Arrived" to message
+    move into Queue_in(1)
+	print this load "WIP" WIP to message
+	  if WIP < 4
+	   begin
+		send to P_Pre_Enter
+	   end 
+	else
+    begin
+	   if load type = P_A then
+	   set priority to 1		
+	   else  
+	   begin
+		set priority to 2			
+	   end
+	print this load ,"Added to queue at the Entrance" to message
+	wait to be ordered on CONWIP_LIST
+	end
+end
+
+begin P_Pre_Enter arriving procedure
+	set WIP to WIP+1
+	if this load type = P_A then
+	begin
+		send to P_Enter_A		
+	end
+	else  
+	begin
+		send to P_Enter_B		
+	end
+end 
+
+begin P_Enter_A arriving procedure
+      move into Queue_in(1)
+      set Makespan to ac 
+      send to P_Proc_A
+end
+
+begin P_Enter_B arriving procedure
+      move into Queue_in(1)
+      set Makespan to ac 
+      send to P_Proc_B
+end
+
+ 
+begin P_Proc_A arriving procedure
+	  print this load, "Picked " to message
+      move into AGV.cp_pr_in
+      travel to AGV.cp_dif_in
+      move into Queue_in(2)
+      print this load, " Using Diff" to message
+      use Dif for 3 hours
+      move into Queue_out(2)
+      move into AGV.cp_dif_out
+      travel to AGV.cp_lith_in
+      move into Queue_in(3)
+      print this load, " Using Lith" to message
+      use Lith for 6 hours
+      move into Queue_out(3)
+      move into AGV.cp_lith_out 
+      travel to AGV.cp_imp_in
+      move into Queue_in(4)
+      print this load, " Using Imp" to message
+      use Imp for 3 hours
+      move into Queue_out(4) 
+      move into AGV.cp_imp_out
+	  travel to AGV.cp_Insp_in
+      move into Queue_in(5)
+      print this load, " Using Insp" to message
+      use Insp for 3 hours
+      move into Queue_out(5)
+      move into AGV.cp_Insp_out
+      travel to AGV.cp_pr_out
+      set Makespan to ac - Makespan
+      print this load, " Cycle Time Load A = " Makespan to message
+	  set WIP to WIP-1
+	  order 1 load from CONWIP_LIST to P_Pre_Enter
+      send to die 
+end
+
+
+begin P_Proc_B arriving procedure
+	  print this load, "Picked " to message
+      move into AGV.cp_pr_in
+      travel to AGV.cp_dif_in
+      move into Queue_in(2)
+      print this load, " Using Diff" to message
+      use Dif for 3 hours
+      move into Queue_out(2)
+      move into AGV.cp_dif_out
+      travel to AGV.cp_lith_in
+      move into Queue_in(3)
+      print this load, " Using Lith" to message
+      use Lith for 3 hours
+      move into Queue_out(3)
+      move into AGV.cp_lith_out 
+      travel to AGV.cp_imp_in
+      move into Queue_in(4)
+      print this load, " Using Imp" to message
+      use Imp for 3 hours
+      move into Queue_out(4) 
+      move into AGV.cp_imp_out
+	  travel to AGV.cp_Insp_in
+      move into Queue_in(5)
+      print this load, " Using Insp" to message
+      use Insp for 9 hours
+      move into Queue_out(5)
+      move into AGV.cp_Insp_out
+      travel to AGV.cp_pr_out
+      set MakespanB to ac - MakespanB
+      print this load, " Cycle Time Load B = " MakespanB to message
+	  set WIP to WIP-1
+	  order 1 load from CONWIP_LIST to P_Pre_Enter
+	  send to die 
+end

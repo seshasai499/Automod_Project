@@ -1,0 +1,68 @@
+begin P_Enter_A arriving procedure
+    move into Queue_in(1)                  
+    set Makespan to ac
+    send to P_Proc_A                   
+end
+
+begin P_Enter_B arriving procedure
+    move into Queue_in(1)                  
+    set Makespan to ac
+    send to BN_orderlist                   
+end
+
+begin BN_orderlist arriving procedure
+        print this load, "Added to Queue at Entrance" to message 
+        wait to be ordered on Entry_OrderList                    
+        begin
+            send to P_Proc_A                                     
+        end
+    
+end
+
+begin P_Proc_A arriving procedure
+    print this load, "Picked " to message                        
+    move into AGV.cp_pr_in                                       
+    travel to AGV.cp_dif_in                                      
+    move into Queue_in(2)                                        
+    print this load, "Using Diff" to message                     
+    use Dif for 225 min
+	order 1 load from Entry_OrderList to continue
+    move into Queue_out(2)                                       
+    move into AGV.cp_dif_out                                     
+    travel to AGV.cp_lith_in                                     
+    move into Queue_in(3)                                        
+    print this load, "Using Lith" to message                     
+    use Lith for 30 min                                          
+    move into Queue_out(3)                                       
+    move into AGV.cp_lith_out                                    
+    travel to AGV.cp_imp_in                                      
+    move into Queue_in(4)                                        
+    print this load, "Using Imp" to message                      
+    use Imp for 55 min                                           
+    move into Queue_out(4)                                       
+    move into AGV.cp_imp_out                                     
+    travel to AGV.cp_lith_in                                     
+    move into Queue_in(3)                                        
+    print this load, "Using Lith(2)" to message                  
+    use Lith for 50 min                                          
+    move into Queue_out(3)                                       
+    move into AGV.cp_lith_out                                    
+    travel to AGV.cp_dif_in                                      
+    move into Queue_in(2)                                        
+    print this load, "Using Diff(2)" to message                  
+    use Dif for 255 min
+	move into Queue_out(2)
+    move into AGV.cp_dif_out
+    travel to AGV.cp_imp_in
+    move into Queue_in(4)
+    print this load, " Using Imp(2)" to message
+    use Imp for 10 min
+	move into Queue_out(4)
+	travel to AGV.cp_pr_out
+    set Makespan to ac - Makespan
+    print this load, " Cycle Time Load A = " Makespan to message
+    send to die
+end
+	
+     
+    

@@ -1,0 +1,722 @@
+0.00: Starting.
+0.00: Datafiles have been read. Initializing model.
+0.00: WARNING: undefined stream. Using default stream 'stream0'
+0.00: Generation limit for P_B is zero.  No load is generated.
+0.00: No run control! Model will not end without intervention.
+0.00: Model image prepared... Ready to simulate.
+0.00: Animation step is now 1 Hours.
+3600.00: Load 1 (P_A) Picked 
+3652.28: Load 1 (P_A)  Using Diff
+3655.62: WARNING: AGV:DefVehicle(1), with 5 segments, transferring from AGV:path2 to AGV:path12, can't rotate.
+3655.62: No debugger information is available.
+7200.00: Load 2 (P_A) Added to Queue at Diff
+10800.00: Load 3 (P_A) Added to Queue at Diff
+14400.00: Load 4 (P_A) Added to Queue at Diff
+17152.28: Load 2 (P_A) Picked 
+17243.88: Load 2 (P_A)  Using Diff
+17303.45: Load 1 (P_A)  Using Lith
+18000.00: Load 5 (P_A) Added to Queue at Diff
+19171.46: Load 1 (P_A)  Using Imp
+21600.00: Load 6 (P_A) Added to Queue at Diff
+22586.63: Load 1 (P_A)  Using Lith(2)
+25200.00: Load 7 (P_A) Added to Queue at Diff
+25699.88: Load 1 (P_A)  Using Diff(2)
+28800.00: Load 8 (P_A) Added to Queue at Diff
+30743.88: Load 3 (P_A) Picked 
+30835.47: Load 3 (P_A)  Using Diff
+30895.04: Load 2 (P_A)  Using Lith
+32400.00: Load 9 (P_A) Added to Queue at Diff
+32763.06: Load 2 (P_A)  Using Imp
+36000.00: Load 10 (P_A) Added to Queue at Diff
+36178.22: Load 2 (P_A)  Using Lith(2)
+39291.47: Load 2 (P_A)  Using Diff(2)
+39600.00: Load 11 (P_A) Added to Queue at Diff
+40999.88: Load 4 (P_A) Picked 
+41091.47: Load 4 (P_A)  Using Diff
+41173.90: Load 1 (P_A)  Using Imp(2)
+41773.90: Load 1 (P_A) is at travel action, but is not on a movement system.
+41773.90: Travel action ignored.
+41773.90: No debugger information is available.
+41773.90: Load 1 (P_A)  Cycle Time Load A = 41773.896960
+43200.00: Load 12 (P_A) Added to Queue at Diff
+44335.47: Load 5 (P_A) Picked 
+44427.06: Load 5 (P_A)  Using Diff
+44486.63: Load 3 (P_A)  Using Lith
+46354.65: Load 3 (P_A)  Using Imp
+46800.00: Load 13 (P_A) Added to Queue at Diff
+49769.81: Load 3 (P_A)  Using Lith(2)
+50400.00: Load 14 (P_A) Added to Queue at Diff
+52883.07: Load 3 (P_A)  Using Diff(2)
+54000.00: Load 15 (P_A) Added to Queue at Diff
+56299.88: Load 6 (P_A) Picked 
+56391.47: Load 6 (P_A)  Using Diff
+56473.90: Load 2 (P_A)  Using Imp(2)
+57073.90: Load 2 (P_A) is at travel action, but is not on a movement system.
+57073.90: Travel action ignored.
+57073.90: No debugger information is available.
+57073.90: Load 2 (P_A)  Cycle Time Load A = 57073.896960
+57600.00: Load 16 (P_A) Added to Queue at Diff
+57835.47: Load 7 (P_A) Picked 
+57927.06: Load 7 (P_A)  Using Diff
+57986.63: Load 4 (P_A)  Using Lith
+59854.65: Load 4 (P_A)  Using Imp
+61200.00: Load 17 (P_A) Added to Queue at Diff
+63269.81: Load 4 (P_A)  Using Lith(2)
+64800.00: Load 18 (P_A) Added to Queue at Diff
+66383.07: Load 4 (P_A)  Using Diff(2)
+68400.00: Load 19 (P_A) Added to Queue at Diff
+69799.88: Load 8 (P_A) Picked 
+69891.47: Load 8 (P_A)  Using Diff
+69951.04: Load 5 (P_A)  Using Lith
+71819.06: Load 5 (P_A)  Using Imp
+72000.00: Load 20 (P_A) Added to Queue at Diff
+73135.47: Load 9 (P_A) Added to Queue at Imp
+73273.49: Load 3 (P_A)  Using Imp(2)
+75119.06: Load 9 (P_A) Picked 
+75210.65: Load 9 (P_A)  Using Diff
+75361.88: Load 5 (P_A)  Using Lith(2)
+75600.00: Load 21 (P_A) Added to Queue at Diff
+75719.06: Load 3 (P_A) is at travel action, but is not on a movement system.
+75719.06: Travel action ignored.
+75719.06: No debugger information is available.
+75719.06: Load 3 (P_A)  Cycle Time Load A = 75719.060433
+78475.14: Load 5 (P_A)  Using Diff(2)
+79200.00: Load 22 (P_A) Added to Queue at Diff
+82800.00: Load 23 (P_A) Added to Queue at Diff
+83299.88: Load 10 (P_A) Picked 
+83391.47: Load 10 (P_A)  Using Diff
+83451.04: Load 6 (P_A)  Using Lith
+85319.06: Load 6 (P_A)  Using Imp
+86400.00: Load 24 (P_A) Added to Queue at Diff
+86635.47: Load 11 (P_A) Added to Queue at Imp
+86750.63: Load 7 (P_A)  Using Lith
+88618.65: Load 7 (P_A)  Using Imp
+88619.06: Load 11 (P_A) Picked 
+88794.55: Load 11 (P_A)  Using Diff
+88945.77: Load 6 (P_A)  Using Lith(2)
+90000.00: Load 25 (P_A) Added to Queue at Diff
+92055.88: Load 7 (P_A)  Using Lith(2)
+92159.97: Load 6 (P_A)  Using Diff(2)
+93600.00: Load 26 (P_A) Added to Queue at Diff
+95239.14: Load 7 (P_A)  Using Diff(2)
+97200.00: Load 27 (P_A) Added to Queue at Diff
+98599.88: Load 12 (P_A) Picked 
+98691.47: Load 12 (P_A)  Using Diff
+98773.90: Load 4 (P_A)  Using Imp(2)
+99373.90: Load 4 (P_A) is at travel action, but is not on a movement system.
+99373.90: Travel action ignored.
+99373.90: No debugger information is available.
+99373.90: Load 4 (P_A)  Cycle Time Load A = 99373.896953
+100135.47: Load 13 (P_A) Picked 
+100227.06: Load 13 (P_A)  Using Diff
+100286.63: Load 8 (P_A)  Using Lith
+100800.00: Load 28 (P_A) Added to Queue at Diff
+102154.65: Load 8 (P_A)  Using Imp
+104400.00: Load 29 (P_A) Added to Queue at Diff
+105569.81: Load 8 (P_A)  Using Lith(2)
+108000.00: Load 30 (P_A) Added to Queue at Diff
+108683.07: Load 8 (P_A)  Using Diff(2)
+111600.00: Load 31 (P_A) Added to Queue at Diff
+112099.88: Load 14 (P_A) Picked 
+112191.47: Load 14 (P_A)  Using Diff
+112251.04: Load 9 (P_A)  Using Lith
+114119.06: Load 9 (P_A)  Using Imp
+115200.00: Load 32 (P_A) Added to Queue at Diff
+115435.47: Load 15 (P_A) Added to Queue at Imp
+115573.49: Load 5 (P_A)  Using Imp(2)
+117419.06: Load 15 (P_A) Picked 
+117510.65: Load 15 (P_A)  Using Diff
+117661.88: Load 9 (P_A)  Using Lith(2)
+118019.06: Load 5 (P_A) is at travel action, but is not on a movement system.
+118019.06: Travel action ignored.
+118019.06: No debugger information is available.
+118019.06: Load 5 (P_A)  Cycle Time Load A = 118019.060433
+118800.00: Load 33 (P_A) Added to Queue at Diff
+120775.14: Load 9 (P_A)  Using Diff(2)
+122400.00: Load 34 (P_A) Added to Queue at Diff
+125599.88: Load 16 (P_A) Picked 
+125691.47: Load 16 (P_A)  Using Diff
+125751.04: Load 10 (P_A)  Using Lith
+126000.00: Load 35 (P_A) Added to Queue at Diff
+127619.06: Load 10 (P_A)  Using Imp
+128935.47: Load 17 (P_A) Added to Queue at Imp
+129050.63: Load 11 (P_A)  Using Lith
+129600.00: Load 36 (P_A) Added to Queue at Diff
+130918.65: Load 11 (P_A)  Using Imp
+130919.06: Load 17 (P_A) Picked 
+131094.55: Load 17 (P_A)  Using Diff
+131245.77: Load 10 (P_A)  Using Lith(2)
+133200.00: Load 37 (P_A) Added to Queue at Diff
+134355.88: Load 11 (P_A)  Using Lith(2)
+136800.00: Load 38 (P_A) Added to Queue at Diff
+140400.00: Load 39 (P_A) Added to Queue at Diff
+140899.88: Load 18 (P_A) Picked 
+140914.88: Load 10 (P_A)  Using Diff(2)
+140997.30: Load 6 (P_A)  Using Imp(2)
+141597.30: Load 6 (P_A) is at travel action, but is not on a movement system.
+141597.30: Travel action ignored.
+141597.30: No debugger information is available.
+141597.30: Load 6 (P_A)  Cycle Time Load A = 141597.303814
+144000.00: Load 40 (P_A) Added to Queue at Diff
+144235.47: Load 19 (P_A) Picked 
+144250.47: Load 11 (P_A)  Using Diff(2)
+144332.89: Load 7 (P_A)  Using Imp(2)
+144932.89: Load 7 (P_A) is at travel action, but is not on a movement system.
+144932.89: Travel action ignored.
+144932.89: No debugger information is available.
+144932.89: Load 7 (P_A)  Cycle Time Load A = 144932.894258
+147600.00: Load 41 (P_A) Added to Queue at Diff
+151200.00: Load 42 (P_A) Added to Queue at Diff
+154399.88: Load 20 (P_A) Picked 
+154414.88: Load 18 (P_A)  Using Diff
+154800.00: Load 43 (P_A) Added to Queue at Diff
+157735.47: Load 21 (P_A) Picked 
+157750.47: Load 19 (P_A)  Using Diff
+157825.04: Load 12 (P_A)  Using Lith
+157840.04: Load 13 (P_A)  Using Lith
+158400.00: Load 44 (P_A) Added to Queue at Diff
+162000.00: Load 45 (P_A) Added to Queue at Diff
+165600.00: Load 46 (P_A) Added to Queue at Diff
+169200.00: Load 47 (P_A) Added to Queue at Diff
+169699.88: Load 22 (P_A) Picked 
+169714.88: Load 20 (P_A)  Using Diff
+171235.47: Load 23 (P_A) Picked 
+171250.47: Load 21 (P_A)  Using Diff
+171325.04: Load 14 (P_A)  Using Lith
+171398.89: Load 8 (P_A)  Using Imp(2)
+171413.89: Load 12 (P_A)  Using Imp
+171428.89: Load 13 (P_A)  Using Imp
+171998.89: Load 8 (P_A) is at travel action, but is not on a movement system.
+171998.89: Travel action ignored.
+171998.89: No debugger information is available.
+171998.89: Load 8 (P_A)  Cycle Time Load A = 171998.894248
+172800.00: Load 48 (P_A) Added to Queue at Diff
+176400.00: Load 49 (P_A) Added to Queue at Diff
+180000.00: Load 50 (P_A) Added to Queue at Diff
+183199.88: Load 24 (P_A) Picked 
+183214.88: Load 22 (P_A)  Using Diff
+183600.00: Load 51 (P_A) Added to Queue at Diff
+186535.47: Load 25 (P_A) Picked 
+186550.47: Load 23 (P_A)  Using Diff
+186625.04: Load 15 (P_A)  Using Lith
+186683.89: Load 9 (P_A)  Using Imp(2)
+186698.89: Load 14 (P_A)  Using Imp
+186818.70: Load 12 (P_A)  Using Lith(2)
+186833.70: Load 13 (P_A)  Using Lith(2)
+187200.00: Load 52 (P_A) Added to Queue at Diff
+187283.89: Load 9 (P_A) is at travel action, but is not on a movement system.
+187283.89: Travel action ignored.
+187283.89: No debugger information is available.
+187283.89: Load 9 (P_A)  Cycle Time Load A = 187283.894248
+190800.00: Load 53 (P_A) Added to Queue at Diff
+194400.00: Load 54 (P_A) Added to Queue at Diff
+196699.88: Load 26 (P_A) Picked 
+196714.88: Load 24 (P_A)  Using Diff
+198000.00: Load 55 (P_A) Added to Queue at Diff
+200035.47: Load 27 (P_A) Picked 
+200050.47: Load 25 (P_A)  Using Diff
+200125.04: Load 16 (P_A)  Using Lith
+200140.04: Load 17 (P_A)  Using Lith
+200228.89: Load 15 (P_A)  Using Imp
+201600.00: Load 56 (P_A) Added to Queue at Diff
+205200.00: Load 57 (P_A) Added to Queue at Diff
+208800.00: Load 58 (P_A) Added to Queue at Diff
+211999.88: Load 28 (P_A) Picked 
+212014.88: Load 12 (P_A)  Using Diff(2)
+212400.00: Load 59 (P_A) Added to Queue at Diff
+215335.47: Load 29 (P_A) Picked 
+215350.47: Load 13 (P_A)  Using Diff(2)
+215425.04: Load 14 (P_A)  Using Lith(2)
+215498.89: Load 10 (P_A)  Using Imp(2)
+215513.89: Load 11 (P_A)  Using Imp(2)
+215528.89: Load 16 (P_A)  Using Imp
+215543.89: Load 17 (P_A)  Using Imp
+215648.70: Load 15 (P_A)  Using Lith(2)
+216000.00: Load 60 (P_A) Added to Queue at Diff
+216098.89: Load 10 (P_A) is at travel action, but is not on a movement system.
+216098.89: Travel action ignored.
+216098.89: No debugger information is available.
+216098.89: Load 10 (P_A)  Cycle Time Load A = 216098.894248
+216698.89: Load 11 (P_A) is at travel action, but is not on a movement system.
+216698.89: Travel action ignored.
+216698.89: No debugger information is available.
+216698.89: Load 11 (P_A)  Cycle Time Load A = 216698.894248
+219600.00: Load 61 (P_A) Added to Queue at Diff
+223200.00: Load 62 (P_A) Added to Queue at Diff
+225499.88: Load 30 (P_A) Picked 
+225514.88: Load 26 (P_A)  Using Diff
+226800.00: Load 63 (P_A) Added to Queue at Diff
+228835.47: Load 31 (P_A) Picked 
+228850.47: Load 27 (P_A)  Using Diff
+230400.00: Load 64 (P_A) Added to Queue at Diff
+234000.00: Load 65 (P_A) Added to Queue at Diff
+237600.00: Load 66 (P_A) Added to Queue at Diff
+238999.88: Load 32 (P_A) Picked 
+239014.88: Load 28 (P_A)  Using Diff
+241200.00: Load 67 (P_A) Added to Queue at Diff
+242335.47: Load 33 (P_A) Picked 
+242350.47: Load 29 (P_A)  Using Diff
+242455.04: Load 18 (P_A)  Using Lith
+242470.04: Load 19 (P_A)  Using Lith
+242485.04: Load 20 (P_A)  Using Lith
+242500.04: Load 21 (P_A)  Using Lith
+244800.00: Load 68 (P_A) Added to Queue at Diff
+248400.00: Load 69 (P_A) Added to Queue at Diff
+252000.00: Load 70 (P_A) Added to Queue at Diff
+252499.88: Load 34 (P_A) Picked 
+252514.88: Load 14 (P_A)  Using Diff(2)
+255600.00: Load 71 (P_A) Added to Queue at Diff
+255835.47: Load 35 (P_A) Picked 
+255850.47: Load 15 (P_A)  Using Diff(2)
+255925.04: Load 22 (P_A)  Using Lith
+255940.04: Load 23 (P_A)  Using Lith
+256043.89: Load 18 (P_A)  Using Imp
+256058.89: Load 19 (P_A)  Using Imp
+256073.89: Load 20 (P_A)  Using Imp
+256088.89: Load 21 (P_A)  Using Imp
+256208.70: Load 16 (P_A)  Using Lith(2)
+256223.70: Load 17 (P_A)  Using Lith(2)
+259200.00: Load 72 (P_A) Added to Queue at Diff
+262800.00: Load 73 (P_A) Added to Queue at Diff
+265999.88: Load 36 (P_A) Added to Queue at Imp
+266014.88: Load 30 (P_A)  Using Diff
+266400.00: Load 74 (P_A) Added to Queue at Diff
+269243.89: Load 36 (P_A) Picked 
+269335.47: Load 37 (P_A) Picked 
+269350.47: Load 31 (P_A)  Using Diff
+270000.00: Load 75 (P_A) Added to Queue at Diff
+273600.00: Load 76 (P_A) Added to Queue at Diff
+277200.00: Load 77 (P_A) Added to Queue at Diff
+280800.00: Load 78 (P_A) Added to Queue at Diff
+281299.88: Load 38 (P_A) Picked 
+281314.88: Load 32 (P_A)  Using Diff
+284400.00: Load 79 (P_A) Added to Queue at Diff
+284635.47: Load 39 (P_A) Picked 
+284650.47: Load 33 (P_A)  Using Diff
+288000.00: Load 80 (P_A) Added to Queue at Diff
+291600.00: Load 81 (P_A) Added to Queue at Diff
+294799.88: Load 40 (P_A) Picked 
+294814.88: Load 34 (P_A)  Using Diff
+294934.45: Load 24 (P_A)  Using Lith
+294949.45: Load 25 (P_A)  Using Lith
+294964.45: Load 26 (P_A)  Using Lith
+295053.30: Load 12 (P_A)  Using Imp(2)
+295068.30: Load 13 (P_A)  Using Imp(2)
+295083.30: Load 22 (P_A)  Using Imp
+295098.30: Load 23 (P_A)  Using Imp
+295200.00: Load 82 (P_A) Added to Queue at Diff
+295653.30: Load 12 (P_A) is at travel action, but is not on a movement system.
+295653.30: Travel action ignored.
+295653.30: No debugger information is available.
+295653.30: Load 12 (P_A)  Cycle Time Load A = 295653.303779
+296253.30: Load 13 (P_A) is at travel action, but is not on a movement system.
+296253.30: Travel action ignored.
+296253.30: No debugger information is available.
+296253.30: Load 13 (P_A)  Cycle Time Load A = 296253.303779
+298135.47: Load 41 (P_A) Added to Queue at Imp
+298150.47: Load 16 (P_A)  Using Diff(2)
+298210.04: Load 18 (P_A)  Using Lith(2)
+298225.04: Load 19 (P_A)  Using Lith(2)
+298240.04: Load 20 (P_A)  Using Lith(2)
+298255.04: Load 21 (P_A)  Using Lith(2)
+298270.04: Load 27 (P_A)  Using Lith
+298358.89: Load 24 (P_A)  Using Imp
+298373.89: Load 25 (P_A)  Using Imp
+298800.00: Load 83 (P_A) Added to Queue at Diff
+299553.30: Load 41 (P_A) Added to Queue at Lith
+302400.00: Load 84 (P_A) Added to Queue at Diff
+306000.00: Load 85 (P_A) Added to Queue at Diff
+308299.88: Load 42 (P_A) Added to Queue at Imp
+308314.88: Load 17 (P_A)  Using Diff(2)
+309453.30: Load 42 (P_A) Picked 
+309600.00: Load 86 (P_A) Added to Queue at Diff
+311635.47: Load 43 (P_A) Picked 
+311650.47: Load 35 (P_A)  Using Diff
+313200.00: Load 87 (P_A) Added to Queue at Diff
+316800.00: Load 88 (P_A) Added to Queue at Diff
+320400.00: Load 89 (P_A) Added to Queue at Diff
+323599.88: Load 44 (P_A) Picked 
+323614.88: Load 36 (P_A)  Using Diff
+324000.00: Load 90 (P_A) Added to Queue at Diff
+326935.47: Load 45 (P_A) Picked 
+326950.47: Load 37 (P_A)  Using Diff
+327600.00: Load 91 (P_A) Added to Queue at Diff
+331200.00: Load 92 (P_A) Added to Queue at Diff
+334800.00: Load 93 (P_A) Added to Queue at Diff
+337099.88: Load 46 (P_A) Picked 
+337114.88: Load 38 (P_A)  Using Diff
+337234.45: Load 28 (P_A)  Using Lith
+337249.45: Load 29 (P_A)  Using Lith
+337264.45: Load 30 (P_A)  Using Lith
+337353.30: Load 14 (P_A)  Using Imp(2)
+337368.30: Load 15 (P_A)  Using Imp(2)
+337383.30: Load 26 (P_A)  Using Imp
+337953.30: Load 14 (P_A) is at travel action, but is not on a movement system.
+337953.30: Travel action ignored.
+337953.30: No debugger information is available.
+337953.30: Load 14 (P_A)  Cycle Time Load A = 337953.303779
+338400.00: Load 94 (P_A) Added to Queue at Diff
+338553.30: Load 15 (P_A) is at travel action, but is not on a movement system.
+338553.30: Travel action ignored.
+338553.30: No debugger information is available.
+338553.30: Load 15 (P_A)  Cycle Time Load A = 338553.303779
+340435.47: Load 47 (P_A) Added to Queue at Imp
+340450.47: Load 18 (P_A)  Using Diff(2)
+341853.30: Load 47 (P_A) Picked 
+342000.00: Load 95 (P_A) Added to Queue at Diff
+345600.00: Load 96 (P_A) Added to Queue at Diff
+349200.00: Load 97 (P_A) Added to Queue at Diff
+350599.88: Load 48 (P_A) Picked 
+350614.88: Load 19 (P_A)  Using Diff(2)
+350689.45: Load 22 (P_A)  Using Lith(2)
+350704.45: Load 23 (P_A)  Using Lith(2)
+350719.45: Load 24 (P_A)  Using Lith(2)
+350734.45: Load 31 (P_A)  Using Lith
+350749.45: Load 32 (P_A)  Using Lith
+350868.30: Load 27 (P_A)  Using Imp
+350883.30: Load 28 (P_A)  Using Imp
+350898.30: Load 29 (P_A)  Using Imp
+352800.00: Load 98 (P_A) Added to Queue at Diff
+353935.47: Load 49 (P_A) Added to Queue at Imp
+353950.47: Load 20 (P_A)  Using Diff(2)
+354168.30: Load 49 (P_A) Added to Queue at Lith
+356400.00: Load 99 (P_A) Added to Queue at Diff
+360000.00: Load 100 (P_A) Added to Queue at Diff
+364099.88: Load 50 (P_A) Picked 
+364114.88: Load 21 (P_A)  Using Diff(2)
+364189.45: Load 25 (P_A)  Using Lith(2)
+364204.45: Load 26 (P_A)  Using Lith(2)
+364219.45: Load 33 (P_A)  Using Lith
+364234.45: Load 34 (P_A)  Using Lith
+364353.30: Load 30 (P_A)  Using Imp
+364368.30: Load 31 (P_A)  Using Imp
+369235.47: Load 51 (P_A) Added to Queue at Imp
+369250.47: Load 22 (P_A)  Using Diff(2)
+370953.30: Load 51 (P_A) Picked 
+379399.88: Load 52 (P_A) Picked 
+379414.88: Load 23 (P_A)  Using Diff(2)
+382735.47: Load 53 (P_A) Picked 
+382750.47: Load 24 (P_A)  Using Diff(2)
+382840.04: Load 27 (P_A)  Using Lith(2)
+382855.04: Load 28 (P_A)  Using Lith(2)
+382870.04: Load 35 (P_A)  Using Lith
+382958.89: Load 16 (P_A)  Using Imp(2)
+382973.89: Load 17 (P_A)  Using Imp(2)
+382988.89: Load 32 (P_A)  Using Imp
+383558.89: Load 16 (P_A) is at travel action, but is not on a movement system.
+383558.89: Travel action ignored.
+383558.89: No debugger information is available.
+383558.89: Load 16 (P_A)  Cycle Time Load A = 383558.894224
+384158.89: Load 17 (P_A) is at travel action, but is not on a movement system.
+384158.89: Travel action ignored.
+384158.89: No debugger information is available.
+384158.89: Load 17 (P_A)  Cycle Time Load A = 384158.894224
+392899.88: Load 54 (P_A) Picked 
+392914.88: Load 25 (P_A)  Using Diff(2)
+396235.47: Load 55 (P_A) Picked 
+396250.47: Load 26 (P_A)  Using Diff(2)
+396325.04: Load 29 (P_A)  Using Lith(2)
+396340.04: Load 30 (P_A)  Using Lith(2)
+396355.04: Load 31 (P_A)  Using Lith(2)
+396370.04: Load 36 (P_A)  Using Lith
+396385.04: Load 37 (P_A)  Using Lith
+396503.89: Load 33 (P_A)  Using Imp
+396518.89: Load 34 (P_A)  Using Imp
+396533.89: Load 35 (P_A)  Using Imp
+406399.88: Load 56 (P_A) Added to Queue at Imp
+406403.89: Load 56 (P_A) Picked 
+406414.88: Load 27 (P_A)  Using Diff(2)
+411535.47: Load 57 (P_A) Picked 
+411550.47: Load 28 (P_A)  Using Diff(2)
+411625.04: Load 32 (P_A)  Using Lith(2)
+411640.04: Load 38 (P_A)  Using Lith
+411743.89: Load 18 (P_A)  Using Imp(2)
+411758.89: Load 36 (P_A)  Using Imp
+412343.89: Load 18 (P_A) is at travel action, but is not on a movement system.
+412343.89: Travel action ignored.
+412343.89: No debugger information is available.
+412343.89: Load 18 (P_A)  Cycle Time Load A = 412343.894224
+421699.88: Load 58 (P_A) Picked 
+421714.88: Load 29 (P_A)  Using Diff(2)
+426835.47: Load 59 (P_A) Picked 
+426850.47: Load 30 (P_A)  Using Diff(2)
+436999.88: Load 60 (P_A) Picked 
+437014.88: Load 31 (P_A)  Using Diff(2)
+437104.45: Load 33 (P_A)  Using Lith(2)
+437119.45: Load 34 (P_A)  Using Lith(2)
+437193.30: Load 19 (P_A)  Using Imp(2)
+437208.30: Load 20 (P_A)  Using Imp(2)
+437223.30: Load 21 (P_A)  Using Imp(2)
+437238.30: Load 37 (P_A)  Using Imp
+437253.30: Load 38 (P_A)  Using Imp
+437373.11: Load 35 (P_A)  Using Lith(2)
+437388.11: Load 36 (P_A)  Using Lith(2)
+437793.30: Load 19 (P_A) is at travel action, but is not on a movement system.
+437793.30: Travel action ignored.
+437793.30: No debugger information is available.
+437793.30: Load 19 (P_A)  Cycle Time Load A = 437793.303779
+438393.30: Load 20 (P_A) is at travel action, but is not on a movement system.
+438393.30: Travel action ignored.
+438393.30: No debugger information is available.
+438393.30: Load 20 (P_A)  Cycle Time Load A = 438393.303779
+438993.30: Load 21 (P_A) is at travel action, but is not on a movement system.
+438993.30: Travel action ignored.
+438993.30: No debugger information is available.
+438993.30: Load 21 (P_A)  Cycle Time Load A = 438993.303779
+442135.47: Load 61 (P_A) Added to Queue at Imp
+442150.47: Load 32 (P_A)  Using Diff(2)
+442232.89: Load 22 (P_A)  Using Imp(2)
+442293.30: Load 61 (P_A) Added to Queue at Lith
+446193.30: Load 22 (P_A) is at travel action, but is not on a movement system.
+446193.30: Travel action ignored.
+446193.30: No debugger information is available.
+446193.30: Load 22 (P_A)  Cycle Time Load A = 446193.303779
+452299.88: Load 62 (P_A) Picked 
+452314.88: Load 33 (P_A)  Using Diff(2)
+457435.47: Load 63 (P_A) Picked 
+457450.47: Load 34 (P_A)  Using Diff(2)
+457547.89: Load 23 (P_A)  Using Imp(2)
+457562.89: Load 24 (P_A)  Using Imp(2)
+457682.70: Load 37 (P_A)  Using Lith(2)
+457697.70: Load 38 (P_A)  Using Lith(2)
+458147.89: Load 23 (P_A) is at travel action, but is not on a movement system.
+458147.89: Travel action ignored.
+458147.89: No debugger information is available.
+458147.89: Load 23 (P_A)  Cycle Time Load A = 458147.894234
+458747.89: Load 24 (P_A) is at travel action, but is not on a movement system.
+458747.89: Travel action ignored.
+458747.89: No debugger information is available.
+458747.89: Load 24 (P_A)  Cycle Time Load A = 458747.894234
+467599.88: Load 64 (P_A) Picked 
+467614.88: Load 35 (P_A)  Using Diff(2)
+472735.47: Load 65 (P_A) Picked 
+472750.47: Load 36 (P_A)  Using Diff(2)
+472847.89: Load 25 (P_A)  Using Imp(2)
+472862.89: Load 26 (P_A)  Using Imp(2)
+473447.89: Load 25 (P_A) is at travel action, but is not on a movement system.
+473447.89: Travel action ignored.
+473447.89: No debugger information is available.
+473447.89: Load 25 (P_A)  Cycle Time Load A = 473447.894234
+474047.89: Load 26 (P_A) is at travel action, but is not on a movement system.
+474047.89: Travel action ignored.
+474047.89: No debugger information is available.
+474047.89: Load 26 (P_A)  Cycle Time Load A = 474047.894234
+482899.88: Load 66 (P_A) Picked 
+482914.88: Load 37 (P_A)  Using Diff(2)
+488035.47: Load 67 (P_A) Picked 
+488050.47: Load 38 (P_A)  Using Diff(2)
+488147.89: Load 27 (P_A)  Using Imp(2)
+488162.89: Load 28 (P_A)  Using Imp(2)
+488747.89: Load 27 (P_A) is at travel action, but is not on a movement system.
+488747.89: Travel action ignored.
+488747.89: No debugger information is available.
+488747.89: Load 27 (P_A)  Cycle Time Load A = 488747.894234
+489347.89: Load 28 (P_A) is at travel action, but is not on a movement system.
+489347.89: Travel action ignored.
+489347.89: No debugger information is available.
+489347.89: Load 28 (P_A)  Cycle Time Load A = 489347.894234
+498199.88: Load 68 (P_A) Picked 
+498214.88: Load 39 (P_A)  Using Diff
+503335.47: Load 69 (P_A) Picked 
+503350.47: Load 40 (P_A)  Using Diff
+513499.88: Load 70 (P_A) Picked 
+513514.88: Load 42 (P_A)  Using Diff
+518635.47: Load 71 (P_A) Picked 
+518650.47: Load 43 (P_A)  Using Diff
+528799.88: Load 72 (P_A) Picked 
+528814.88: Load 44 (P_A)  Using Diff
+528957.30: Load 29 (P_A)  Using Imp(2)
+528972.30: Load 30 (P_A)  Using Imp(2)
+528987.30: Load 31 (P_A)  Using Imp(2)
+529002.30: Load 32 (P_A)  Using Imp(2)
+529017.30: Load 33 (P_A)  Using Imp(2)
+529557.30: Load 29 (P_A) is at travel action, but is not on a movement system.
+529557.30: Travel action ignored.
+529557.30: No debugger information is available.
+529557.30: Load 29 (P_A)  Cycle Time Load A = 529557.303814
+530157.30: Load 30 (P_A) is at travel action, but is not on a movement system.
+530157.30: Travel action ignored.
+530157.30: No debugger information is available.
+530157.30: Load 30 (P_A)  Cycle Time Load A = 530157.303814
+530757.30: Load 31 (P_A) is at travel action, but is not on a movement system.
+530757.30: Travel action ignored.
+530757.30: No debugger information is available.
+530757.30: Load 31 (P_A)  Cycle Time Load A = 530757.303814
+531357.30: Load 32 (P_A) is at travel action, but is not on a movement system.
+531357.30: Travel action ignored.
+531357.30: No debugger information is available.
+531357.30: Load 32 (P_A)  Cycle Time Load A = 531357.303814
+531957.30: Load 33 (P_A) is at travel action, but is not on a movement system.
+531957.30: Travel action ignored.
+531957.30: No debugger information is available.
+531957.30: Load 33 (P_A)  Cycle Time Load A = 531957.303814
+533935.47: Load 73 (P_A) Picked 
+533950.47: Load 45 (P_A)  Using Diff
+544099.88: Load 74 (P_A) Picked 
+544114.88: Load 46 (P_A)  Using Diff
+549235.47: Load 75 (P_A) Picked 
+549250.47: Load 47 (P_A)  Using Diff
+559399.88: Load 76 (P_A) Picked 
+559414.88: Load 48 (P_A)  Using Diff
+564535.47: Load 77 (P_A) Picked 
+564550.47: Load 50 (P_A)  Using Diff
+564692.89: Load 34 (P_A)  Using Imp(2)
+564707.89: Load 35 (P_A)  Using Imp(2)
+564722.89: Load 36 (P_A)  Using Imp(2)
+564737.89: Load 37 (P_A)  Using Imp(2)
+564752.89: Load 38 (P_A)  Using Imp(2)
+565292.89: Load 34 (P_A) is at travel action, but is not on a movement system.
+565292.89: Travel action ignored.
+565292.89: No debugger information is available.
+565292.89: Load 34 (P_A)  Cycle Time Load A = 565292.894258
+565892.89: Load 35 (P_A) is at travel action, but is not on a movement system.
+565892.89: Travel action ignored.
+565892.89: No debugger information is available.
+565892.89: Load 35 (P_A)  Cycle Time Load A = 565892.894258
+566492.89: Load 36 (P_A) is at travel action, but is not on a movement system.
+566492.89: Travel action ignored.
+566492.89: No debugger information is available.
+566492.89: Load 36 (P_A)  Cycle Time Load A = 566492.894258
+567092.89: Load 37 (P_A) is at travel action, but is not on a movement system.
+567092.89: Travel action ignored.
+567092.89: No debugger information is available.
+567092.89: Load 37 (P_A)  Cycle Time Load A = 567092.894258
+567692.89: Load 38 (P_A) is at travel action, but is not on a movement system.
+567692.89: Travel action ignored.
+567692.89: No debugger information is available.
+567692.89: Load 38 (P_A)  Cycle Time Load A = 567692.894258
+572899.88: Load 78 (P_A) Picked 
+572914.88: Load 51 (P_A)  Using Diff
+578035.47: Load 79 (P_A) Picked 
+578050.47: Load 52 (P_A)  Using Diff
+586399.88: Load 80 (P_A) Picked 
+586414.88: Load 53 (P_A)  Using Diff
+591535.47: Load 81 (P_A) Picked 
+591550.47: Load 54 (P_A)  Using Diff
+599899.88: Load 82 (P_A) Picked 
+599914.88: Load 55 (P_A)  Using Diff
+600034.45: Load 39 (P_A)  Using Lith
+600049.45: Load 40 (P_A)  Using Lith
+600064.45: Load 42 (P_A)  Using Lith
+600079.45: Load 43 (P_A)  Using Lith
+600094.45: Load 44 (P_A)  Using Lith
+605035.47: Load 83 (P_A) Picked 
+605050.47: Load 56 (P_A)  Using Diff
+613399.88: Load 84 (P_A) Picked 
+613414.88: Load 57 (P_A)  Using Diff
+618535.47: Load 85 (P_A) Picked 
+618550.47: Load 58 (P_A)  Using Diff
+626899.88: Load 86 (P_A) Picked 
+626914.88: Load 59 (P_A)  Using Diff
+632035.47: Load 87 (P_A) Picked 
+632050.47: Load 60 (P_A)  Using Diff
+632170.04: Load 45 (P_A)  Using Lith
+632185.04: Load 46 (P_A)  Using Lith
+632200.04: Load 47 (P_A)  Using Lith
+632215.04: Load 48 (P_A)  Using Lith
+632230.04: Load 50 (P_A)  Using Lith
+632348.89: Load 39 (P_A)  Using Imp
+632363.89: Load 40 (P_A)  Using Imp
+632378.89: Load 42 (P_A)  Using Imp
+632393.89: Load 43 (P_A)  Using Imp
+632408.89: Load 44 (P_A)  Using Imp
+640399.88: Load 88 (P_A) Added to Queue at Imp
+640414.88: Load 62 (P_A)  Using Diff
+642248.89: Load 88 (P_A) Picked 
+645535.47: Load 89 (P_A) Added to Queue at Imp
+645548.89: Load 89 (P_A) Picked 
+645550.47: Load 63 (P_A)  Using Diff
+653899.88: Load 90 (P_A) Picked 
+653914.88: Load 64 (P_A)  Using Diff
+659035.47: Load 91 (P_A) Picked 
+659050.47: Load 65 (P_A)  Using Diff
+667399.88: Load 92 (P_A) Picked 
+667414.88: Load 66 (P_A)  Using Diff
+667534.45: Load 51 (P_A)  Using Lith
+667549.45: Load 52 (P_A)  Using Lith
+667564.45: Load 53 (P_A)  Using Lith
+667579.45: Load 54 (P_A)  Using Lith
+667594.45: Load 55 (P_A)  Using Lith
+667713.30: Load 45 (P_A)  Using Imp
+667728.30: Load 46 (P_A)  Using Imp
+667743.30: Load 47 (P_A)  Using Imp
+667758.30: Load 48 (P_A)  Using Imp
+667773.30: Load 50 (P_A)  Using Imp
+667938.11: Load 39 (P_A)  Using Lith(2)
+667953.11: Load 40 (P_A)  Using Lith(2)
+667968.11: Load 42 (P_A)  Using Lith(2)
+667983.11: Load 43 (P_A)  Using Lith(2)
+667998.11: Load 44 (P_A)  Using Lith(2)
+672535.47: Load 93 (P_A) Added to Queue at Imp
+672550.47: Load 67 (P_A)  Using Diff
+674313.30: Load 93 (P_A) Added to Queue at Lith
+680899.88: Load 94 (P_A) Added to Queue at Imp
+680913.30: Load 94 (P_A) Picked 
+680914.88: Load 68 (P_A)  Using Diff
+686035.47: Load 95 (P_A) Picked 
+686050.47: Load 69 (P_A)  Using Diff
+694399.88: Load 96 (P_A) Picked 
+694414.88: Load 70 (P_A)  Using Diff
+699535.47: Load 97 (P_A) Picked 
+699550.47: Load 71 (P_A)  Using Diff
+699670.04: Load 56 (P_A)  Using Lith
+699685.04: Load 57 (P_A)  Using Lith
+699700.04: Load 58 (P_A)  Using Lith
+699715.04: Load 59 (P_A)  Using Lith
+699730.04: Load 60 (P_A)  Using Lith
+699848.89: Load 51 (P_A)  Using Imp
+699863.89: Load 52 (P_A)  Using Imp
+699878.89: Load 53 (P_A)  Using Imp
+699893.89: Load 54 (P_A)  Using Imp
+699908.89: Load 55 (P_A)  Using Imp
+700073.70: Load 45 (P_A)  Using Lith(2)
+700088.70: Load 46 (P_A)  Using Lith(2)
+700103.70: Load 47 (P_A)  Using Lith(2)
+700118.70: Load 48 (P_A)  Using Lith(2)
+700133.70: Load 50 (P_A)  Using Lith(2)
+707899.88: Load 98 (P_A) Added to Queue at Imp
+707914.88: Load 39 (P_A)  Using Diff(2)
+709748.89: Load 98 (P_A) Added to Queue at Lith
+713035.47: Load 99 (P_A) Added to Queue at Imp
+713048.89: Load 99 (P_A) Picked 
+713050.47: Load 40 (P_A)  Using Diff(2)
+721399.88: Load 100 (P_A) Picked 
+721414.88: Load 42 (P_A)  Using Diff(2)
+726550.47: Load 43 (P_A)  Using Diff(2)
+734914.88: Load 44 (P_A)  Using Diff(2)
+735034.45: Load 62 (P_A)  Using Lith
+735049.45: Load 63 (P_A)  Using Lith
+735064.45: Load 64 (P_A)  Using Lith
+735079.45: Load 65 (P_A)  Using Lith
+735094.45: Load 66 (P_A)  Using Lith
+735213.30: Load 56 (P_A)  Using Imp
+735228.30: Load 57 (P_A)  Using Imp
+735243.30: Load 58 (P_A)  Using Imp
+735258.30: Load 59 (P_A)  Using Imp
+735273.30: Load 60 (P_A)  Using Imp
+735438.11: Load 51 (P_A)  Using Lith(2)
+735453.11: Load 52 (P_A)  Using Lith(2)
+735468.11: Load 53 (P_A)  Using Lith(2)
+735483.11: Load 54 (P_A)  Using Lith(2)
+735498.11: Load 55 (P_A)  Using Lith(2)
+740050.47: Load 45 (P_A)  Using Diff(2)
+748414.88: Load 46 (P_A)  Using Diff(2)
+753550.47: Load 47 (P_A)  Using Diff(2)
+761914.88: Load 48 (P_A)  Using Diff(2)
+767050.47: Load 50 (P_A)  Using Diff(2)
+767170.04: Load 67 (P_A)  Using Lith
+767185.04: Load 68 (P_A)  Using Lith
+767200.04: Load 69 (P_A)  Using Lith
+767215.04: Load 70 (P_A)  Using Lith
+767230.04: Load 71 (P_A)  Using Lith
+767348.89: Load 62 (P_A)  Using Imp
+767363.89: Load 63 (P_A)  Using Imp
+767378.89: Load 64 (P_A)  Using Imp
+767393.89: Load 65 (P_A)  Using Imp
+767408.89: Load 66 (P_A)  Using Imp
+767573.70: Load 56 (P_A)  Using Lith(2)
+767588.70: Load 57 (P_A)  Using Lith(2)
+767603.70: Load 58 (P_A)  Using Lith(2)
+767618.70: Load 59 (P_A)  Using Lith(2)
+767633.70: Load 60 (P_A)  Using Lith(2)
+777214.88: Load 51 (P_A)  Using Diff(2)
