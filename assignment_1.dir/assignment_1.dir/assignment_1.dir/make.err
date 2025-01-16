@@ -1,0 +1,9 @@
+Processing build commands for the model assignment_1...
+assignment_1~model.c
+assignment_1~init1.c
+logic.c
+Linking assignment_1.dll...
+   Creating library assignment_1.lib and object assignment_1.exp
+Generating assignment_1.exe...
+        1 file(s) copied.
+

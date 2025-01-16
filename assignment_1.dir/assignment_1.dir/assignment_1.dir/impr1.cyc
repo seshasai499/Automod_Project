@@ -1,0 +1,4 @@
+do infinite begin		
+	after rn stream_ImpR1_3 30.00 hours	take resource down
+	after rn stream_ImpR1_4 30.00 hours	bring resource up
+end		
