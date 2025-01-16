@@ -1,0 +1,9 @@
+Processing build commands for the model project_phase_1...
+project_phase_1~model.c
+project_phase_1~init1.c
+logic.c
+Linking project_phase_1.dll...
+   Creating library project_phase_1.lib and object project_phase_1.exp
+Generating project_phase_1.exe...
+        1 file(s) copied.
+

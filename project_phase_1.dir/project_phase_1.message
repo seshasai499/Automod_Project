@@ -1,0 +1,13 @@
+0.00: Starting.
+0.00: Datafiles have been read. Initializing model.
+0.00: WARNING: undefined stream. Using default stream 'stream0'
+0.00: WARNING: undefined stream. Using default stream 'stream0'
+0.00: No run control! Model will not end without intervention.
+0.00: Model image prepared... Ready to simulate.
+0.00: Animation step is now 1 Days.
+16.00: Load 1 (Load_A) Picked
+88.64: Load 2 (Load_B) Picked Lot B
+161.28: Load 3 (Load_C) Picked Lot C
+24554.28: Load 1 (Load_A)  Cycle Time Load A = 24554.279247
+61912.59: Load 2 (Load_B) Cycle Time Load B =  61910.587561
+74227.22: Load 3 (Load_C) Cycle Time Load C =  74224.217166
