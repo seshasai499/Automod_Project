@@ -1,0 +1,17 @@
+0.00: Starting.
+0.00: Datafiles have been read. Initializing model.
+0.00: WARNING: undefined stream. Using default stream 'stream0'
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path42.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path45.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path48.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path51.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path64.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path44.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path47.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path50.
+0.00: WARNING: There is no path from a node at 0 ft along SMS:path53.
+0.00: No run control! Model will not end without intervention.
+0.00: Model image prepared... Ready to simulate.
+0.00: Animation step is now 1 Days.
+125.17: Load 1 (LoadA) Picked
+310906.60: Load 1 (LoadA)  Cycle Time FOR FRONT-END PROCESS = 310905.603291

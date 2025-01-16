@@ -1,0 +1,9 @@
+Processing build commands for the model phase2...
+phase2~model.c
+phase2~init1.c
+source.c
+Linking phase2.dll...
+   Creating library phase2.lib and object phase2.exp
+Generating phase2.exe...
+        1 file(s) copied.
+

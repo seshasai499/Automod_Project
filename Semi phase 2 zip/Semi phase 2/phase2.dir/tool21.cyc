@@ -1,0 +1,4 @@
+do infinite begin		
+	after rn stream_TOOL21_1 114.33 hours	take resource down
+	after rn stream_TOOL21_2 8.12 hours	bring resource up
+end		
